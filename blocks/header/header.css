@@ -157,6 +157,10 @@ header nav .nav-sections {
   visibility: hidden;
 }
 
+header nav .nav-sections .default-content-wrapper {
+  float: right !important;
+}
+
 header nav[aria-expanded='true'] .nav-sections {
   display: block;
   visibility: visible;
@@ -222,10 +226,6 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 24px;
     margin: 0;
-  }
-
-  .nav-sections .default-content-wrapper {
-    float: right !important;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
