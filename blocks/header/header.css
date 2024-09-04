@@ -224,6 +224,10 @@ header nav .nav-sections ul > li > ul > li {
     margin: 0;
   }
 
+  .nav-sections .default-content-wrapper {
+    float: right !important;
+  }
+
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
@@ -243,7 +247,6 @@ header nav .nav-sections ul > li > ul > li {
     padding: 16px;
     background-color: var(--light-color);
     white-space: initial;
-    float:right;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
